@@ -23,7 +23,7 @@ export default function App() {
   return (
     <>
       <AvatarCreator
-        subdomain="demo"
+        subdomain="https://testing-yameen.vercel.app/"
         config={config}
         style={style}
         onAvatarExported={handleOnAvatarExported}
