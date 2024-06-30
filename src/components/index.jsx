@@ -3,6 +3,7 @@ import {
   AvatarCreatorConfig,
   AvatarExportedEvent,
 } from "@readyplayerme/react-avatar-creator";
+import { Avatar } from "@readyplayerme/visage";
 import { useState } from "react";
 
 const config = {
@@ -28,7 +29,7 @@ export default function App() {
         style={style}
         onAvatarExported={handleOnAvatarExported}
       />
-      {/* {avatarUrl && <Avatar modelSrc={avatarUrl} />} */}
+      {avatarUrl && <Avatar modelSrc={avatarUrl} />}
     </>
   );
 }
